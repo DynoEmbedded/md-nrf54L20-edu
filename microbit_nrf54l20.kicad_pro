@@ -1,0 +1,8 @@
+{
+  "board": {
+    "filename": "microbit_nrf54l20.kicad_pcb"
+  },
+  "sheets": [
+    ["root", "microbit_nrf54l20.kicad_sch"]
+  ]
+}
