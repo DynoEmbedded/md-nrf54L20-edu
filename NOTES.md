@@ -44,8 +44,13 @@ components placed in non-overlapping functional blocks.
   input: an AP2112K-3.3 can't regulate 3.3V from ~2.7V (3V cell minus Schottky),
   so the SoC runs directly off the battery rail (nRF runs down to 1.7V) while
   USB feeds the same rail via the LDO; D27 blocks backfeed.
-- All five display ROW lines and all five COL lines are brought out to the 25-pad
-  edge connector (one of the two redundant +3V3 edge pads was reassigned to ROW5).
+- The custom nRF54L20 symbol pins carry GENERIC silicon names only: GPIO pins are
+  P0.xx / P1.xx / P2.xx, dedicated pins keep their chip names (VDD, VSS, XC1/XC2,
+  XL1/XL2, ANT, DEC*, SWDIO, SWDCLK, nRESET, USB_DP/USB_DM). The application
+  function (COL2, SDA, BTN_A, SPK, ...) is carried by the NET labels, not the pin
+  names - e.g. pin P1.01 sits on net COL2.
+- The 5x5 LED matrix was removed per request; the ROW*/COL* nets remain as plain
+  U1<->edge-connector GPIO nets.
 - nRF54L20 pinout here is illustrative (a believable QFN-52 function map), not a
   literal copy of the datasheet pin numbers.
 
