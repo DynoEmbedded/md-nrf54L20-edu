@@ -18,7 +18,7 @@
         (font (size 1.27 1.27))
       )
     )
-    (property "Footprint" "Package_DFN_QFN:QFN-52-1EP_7x8mm_P0.5mm_EP5.41x6.45mm"
+    (property "Footprint" "md_nrf54l20:QFN-52-1EP_6x6mm_P0.4mm_EP4.7x4.7mm"
       (at 0 -5.08 0)
       (effects
         (font (size 1.27 1.27))

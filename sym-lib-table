@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "microbit_nrf54l20")(type "KiCad")(uri "/home/tmpk/md-l20/microbit_nrf54l20.kicad_sym")(options "")(descr ""))
+  (lib (name "md_nrf54l20")(type "KiCad")(uri "/home/tmpk/md-l20/md_nrf54l20.kicad_sym")(options "")(descr ""))
 )

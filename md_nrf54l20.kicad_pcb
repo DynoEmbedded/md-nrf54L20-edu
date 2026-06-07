@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "microbit_nrf54l20")
+		(title "md_nrf54l20")
 		(date "2026-06-06")
 	)
 	(layers

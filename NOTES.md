@@ -1,4 +1,4 @@
-# microbit_nrf54l20 - build notes
+# md_nrf54l20 - build notes
 
 micro:bit-style board around an nRF54L20 (QFN-52), built with the KiCad MCP.
 Schematic only: symbols + footprints linked, connectivity by net labels (no wires),
@@ -13,7 +13,7 @@ components placed in non-overlapping functional blocks.
   (render / ERC / netlist) resolves `Device:*`, `Package_DFN_QFN:*`, etc. fine.
 - Footprint strings stored in the schematic are just text; they only need to
   resolve at PCB time, so standard-library names work without MCP registration.
-- Custom `nRF54L20` symbol lives in `microbit_nrf54l20.kicad_sym`, registered
+- Custom `nRF54L20` symbol lives in `md_nrf54l20.kicad_sym`, registered
   project-scope (writes `./sym-lib-table`). QFN-52 footprint:
   `Package_DFN_QFN:QFN-52-1EP_7x8mm_P0.5mm_EP5.41x6.45mm` (exposed pad = pad 53).
 
@@ -56,6 +56,13 @@ components placed in non-overlapping functional blocks.
   pin P1.05 sits on net COL2, P0.08 on net SDA, P1.29 on BTN_A.
 - The 5x5 LED matrix was removed per request; the ROW*/COL* nets remain as plain
   U1<->edge-connector GPIO nets.
+- U1 footprint is a CUSTOM QGAA land pattern (the std KiCad lib only has a 7x8mm
+  0.5mm QFN-52). Built from datasheet Table 86: body 6.0x6.0mm, pitch 0.4mm,
+  13 pads/side (pad 0.82x0.20mm at 2.94mm offset, copied from KiCad's QFN-48 6x6
+  0.4mm land), exposed pad D2/E2 = 4.70mm. File:
+  md_nrf54l20.pretty/QFN-52-1EP_6x6mm_P0.4mm_EP4.7x4.7mm.kicad_mod, registered
+  project-scope in ./fp-lib-table. Pad numbers 1-52 + EP(53) match the symbol/
+  datasheet pin numbering (CCW from top-left).
 
 ## Misc
 - Sending many schematic-mutating MCP calls in one assistant turn is safe: the
