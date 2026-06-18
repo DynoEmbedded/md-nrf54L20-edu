@@ -8,26 +8,26 @@
     {"ref": "C2", "lib_id": "Device:C", "value": "100nF", "footprint": "Capacitor_SMD:C_0603_1608Metric"},
     {"ref": "C3", "lib_id": "Device:C", "value": "100nF", "footprint": "Capacitor_SMD:C_0603_1608Metric"},
     {"ref": "C4", "lib_id": "Device:C", "value": "100nF", "footprint": "Capacitor_SMD:C_0603_1608Metric"},
-    {"ref": "C5", "lib_id": "Device:C", "value": "1uF", "footprint": "Capacitor_SMD:C_0603_1608Metric"},
-    {"ref": "C6", "lib_id": "Device:C", "value": "1uF", "footprint": "Capacitor_SMD:C_0603_1608Metric"},
+    {"ref": "C5", "lib_id": "Device:C", "value": "2.2uF", "footprint": "Capacitor_SMD:C_0603_1608Metric"},
+    {"ref": "C6", "lib_id": "Device:C", "value": "4.7uF", "footprint": "Capacitor_SMD:C_0603_1608Metric"},
     {"ref": "C7", "lib_id": "Device:C", "value": "12pF", "footprint": "Capacitor_SMD:C_0603_1608Metric"},
     {"ref": "C8", "lib_id": "Device:C", "value": "12pF", "footprint": "Capacitor_SMD:C_0603_1608Metric"},
     {"ref": "L1", "lib_id": "Device:L", "value": "4.7uH", "footprint": "Inductor_SMD:L_0603_1608Metric"},
     {"ref": "FB1", "lib_id": "Device:FerriteBead_Small", "value": "120R@100MHz", "footprint": "Inductor_SMD:L_0603_1608Metric"},
     {"ref": "C16", "lib_id": "Device:C", "value": "100nF", "footprint": "Capacitor_SMD:C_0603_1608Metric"},
-    {"ref": "Y2", "lib_id": "Device:Crystal", "value": "32MHz", "footprint": "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"},
+    {"ref": "Y2", "lib_id": "Device:Crystal_GND24", "value": "32MHz", "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"},
     {"ref": "R1", "lib_id": "Device:R", "value": "10k", "footprint": "Resistor_SMD:R_0603_1608Metric"},
 
-    {"ref": "J5", "lib_id": "Connector:USB_C_Receptacle_USB2.0_16P", "value": "USB_C", "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"},
+    {"ref": "J5", "lib_id": "Connector:USB_C_Receptacle_USB2.0_16P", "value": "USB_C", "footprint": "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"},
     {"ref": "R2", "lib_id": "Device:R", "value": "5.1k", "footprint": "Resistor_SMD:R_0603_1608Metric"},
     {"ref": "R3", "lib_id": "Device:R", "value": "5.1k", "footprint": "Resistor_SMD:R_0603_1608Metric"},
-    {"ref": "U2", "lib_id": "Regulator_Linear:AMS1117-3.3", "value": "AMS1117-3.3", "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2"},
+    {"ref": "U2", "lib_id": "Regulator_Linear:AMS1117-3.3", "value": "AMS1117-3.3", "footprint": "Package_TO_SOT_SMD:SOT-89-3"},
     {"ref": "C9", "lib_id": "Device:C", "value": "10uF", "footprint": "Capacitor_SMD:C_0805_2012Metric"},
     {"ref": "C10", "lib_id": "Device:C", "value": "22uF", "footprint": "Capacitor_SMD:C_0805_2012Metric"},
     {"ref": "C11", "lib_id": "Device:C", "value": "100nF", "footprint": "Capacitor_SMD:C_0603_1608Metric"},
 
     {"ref": "U3", "lib_id": "md_nrf54l20:CH347T", "value": "CH347T", "footprint": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"},
-    {"ref": "Y1", "lib_id": "Device:Crystal", "value": "8MHz", "footprint": "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"},
+    {"ref": "Y1", "lib_id": "Device:Crystal_GND24", "value": "8MHz", "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"},
     {"ref": "C12", "lib_id": "Device:C", "value": "22pF", "footprint": "Capacitor_SMD:C_0603_1608Metric"},
     {"ref": "C13", "lib_id": "Device:C", "value": "22pF", "footprint": "Capacitor_SMD:C_0603_1608Metric"},
     {"ref": "C14", "lib_id": "Device:C", "value": "100nF", "footprint": "Capacitor_SMD:C_0603_1608Metric"},
@@ -52,7 +52,7 @@
     {"name": "+3V3", "pins": [
       "U1.6", "U1.42", "U1.51",
       "U2.2", "U3.14",
-      "L1.2", "R1.1", "LS1.1", "D1.1",
+      "R1.1", "LS1.1", "D1.1",
       "J6.1", "J1.2", "J1.4",
       "C1.1", "C2.1", "C3.1", "C4.1", "C10.1", "C11.1", "C14.1", "C15.1"
     ]},
@@ -63,7 +63,8 @@
       "Q1.1", "Q1.4", "J6.5", "J1.6", "J1.7", "J2.4",
       "R2.2", "R3.2", "R6.2",
       "C1.2", "C2.2", "C3.2", "C4.2", "C5.2", "C6.2", "C7.2", "C8.2", "C9.2", "C10.2", "C11.2",
-      "C12.2", "C13.2", "C14.2", "C15.2", "C16.2"
+      "C12.2", "C13.2", "C14.2", "C15.2", "C16.2",
+      "Y1.2", "Y1.4", "Y2.2", "Y2.4"
     ]},
     {"name": "VBUS", "pins": ["J5.A4", "J5.A9", "J5.B4", "J5.B9", "U2.3", "C9.1", "J1.5"]},
 
@@ -73,17 +74,17 @@
     {"name": "USB_CC2", "pins": ["J5.B5", "R3.1"]},
 
     {"name": "CH_XI", "pins": ["U3.19", "Y1.1", "C12.1"]},
-    {"name": "CH_XO", "pins": ["U3.20", "Y1.2", "C13.1"]},
+    {"name": "CH_XO", "pins": ["U3.20", "Y1.3", "C13.1"]},
 
     {"name": "UART_TX", "pins": ["U1.14", "U3.4"]},
     {"name": "UART_RX", "pins": ["U1.15", "U3.3"]},
 
-    {"name": "DECD", "pins": ["U1.44", "C5.1"]},
+    {"name": "DECD", "pins": ["U1.44", "L1.2", "C5.1"]},
     {"name": "DECA", "pins": ["U1.46", "C6.1", "FB1.1"]},
     {"name": "DECRF", "pins": ["U1.36", "FB1.2", "C16.1"]},
     {"name": "DCC", "pins": ["U1.43", "L1.1"]},
     {"name": "HFXO_XC1", "pins": ["U1.37", "Y2.1", "C7.1"]},
-    {"name": "HFXO_XC2", "pins": ["U1.38", "Y2.2", "C8.1"]},
+    {"name": "HFXO_XC2", "pins": ["U1.38", "Y2.3", "C8.1"]},
 
     {"name": "nRESET", "pins": ["U1.33", "R1.2", "J6.4", "J1.3"]},
     {"name": "SWDIO", "pins": ["U1.32", "J6.2"]},
