@@ -5225,12 +5225,6 @@
 		(uuid "b3a6c9c2-5489-4041-bf03-1ea7da7c00ef")
 	)
 	(junction
-		(at 439.42 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5176d36-3f1c-4f89-afc1-487f33c1bec1")
-	)
-	(junction
 		(at 473.71 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6220,7 +6214,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 195.58) (xy 419.1 195.58)
+			(xy 419.1 195.58) (xy 452.12 195.58)
 		)
 		(stroke
 			(width 0)
@@ -6467,16 +6461,6 @@
 			(type default)
 		)
 		(uuid "aca7fd67-f029-4d70-a345-b4c579759161")
-	)
-	(wire
-		(pts
-			(xy 452.12 195.58) (xy 439.42 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae6b96d2-b510-4bb8-b07b-c8ab9389d488")
 	)
 	(wire
 		(pts
@@ -8720,89 +8704,6 @@
 			(project "md_nrf54l20"
 				(path "/66856a8e-a1ed-409f-881b-bdedd4d4f5ae"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 439.42 203.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2b546a30-4bcc-50eb-af35-568934e150f5")
-		(property "Reference" "#PWR039"
-			(at 439.42 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 439.42 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 439.42 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 439.42 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 439.42 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8d1339b4-546f-5e6b-8fe8-74e790a1321b")
-		)
-		(instances
-			(project "md_nrf54l20"
-				(path "/66856a8e-a1ed-409f-881b-bdedd4d4f5ae"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e09869c8-a609-568e-b6fc-992aa2e6349f"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -12798,91 +12699,6 @@
 			(project ""
 				(path "/e09869c8-a609-568e-b6fc-992aa2e6349f"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 439.42 199.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bae9252b-1665-5799-895c-772d8af7435d")
-		(property "Reference" "C1"
-			(at 434.848 198.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 433.578 200.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 439.42 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 439.42 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 439.42 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "06898f63-fa60-5efc-8b78-508e107a89dc")
-		)
-		(pin "2"
-			(uuid "33326b11-f55f-5ad5-9423-c513cc5b92c3")
-		)
-		(instances
-			(project "md_nrf54l20"
-				(path "/66856a8e-a1ed-409f-881b-bdedd4d4f5ae"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e09869c8-a609-568e-b6fc-992aa2e6349f"
-					(reference "C1")
 					(unit 1)
 				)
 			)
