@@ -159,7 +159,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -210,7 +210,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.1
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -520,7 +521,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.1,
         "tuning_profile": "",
         "via_diameter": 0.35,
         "via_drill": 0.2,
@@ -662,7 +663,7 @@
         "uuid": "66856a8e-a1ed-409f-881b-bdedd4d4f5ae"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C10,#PWR48",
     "variants": []
   },
   "sheets": [
