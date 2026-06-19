@@ -5287,16 +5287,16 @@
 		(uuid "154a04f6-6cde-40ab-a82e-b77cabb90562")
 	)
 	(no_connect
-		(at 292.1 283.21)
-		(uuid "190b20e6-4f07-468c-9f52-f389571099bf")
-	)
-	(no_connect
 		(at 394.97 275.59)
 		(uuid "1abc96b0-bac5-596d-97ad-309f42dfd9e3")
 	)
 	(no_connect
 		(at 292.1 303.53)
 		(uuid "291d3dc4-5384-5da2-932c-9bac2c2f7e2a")
+	)
+	(no_connect
+		(at 387.35 217.17)
+		(uuid "3b750e09-262a-40b9-b7e9-5a463ec5c86c")
 	)
 	(no_connect
 		(at 201.93 151.13)
@@ -5359,10 +5359,6 @@
 		(uuid "c33cff53-3276-5672-8a38-a54b1e5d5a6e")
 	)
 	(no_connect
-		(at 292.1 285.75)
-		(uuid "c9586f72-b927-494d-9e25-6e023d7a2c48")
-	)
-	(no_connect
 		(at 430.53 269.24)
 		(uuid "d142b207-6c5a-5617-b9ec-154c6ed792f2")
 	)
@@ -5377,6 +5373,10 @@
 	(no_connect
 		(at 349.25 148.59)
 		(uuid "de6d71f1-5223-4f47-8288-33e7526e9f05")
+	)
+	(no_connect
+		(at 387.35 219.71)
+		(uuid "e8a1abea-378f-4ab3-8eb3-1cb43ec4f738")
 	)
 	(no_connect
 		(at 372.11 132.08)
@@ -5501,6 +5501,16 @@
 			(type default)
 		)
 		(uuid "1447c06a-f719-4f17-bb3d-bb6339708c30")
+	)
+	(wire
+		(pts
+			(xy 447.04 214.63) (xy 430.53 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172c30d6-604b-4ba8-bd12-52d91de29315")
 	)
 	(wire
 		(pts
@@ -6734,6 +6744,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 285.75) (xy 292.1 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e3e65a-71e1-4fdd-bfed-c66e47cb7dd5")
+	)
+	(wire
+		(pts
 			(xy 551.18 318.77) (xy 574.04 318.77)
 		)
 		(stroke
@@ -6821,6 +6841,16 @@
 			(type default)
 		)
 		(uuid "ed15f593-73a0-4d98-9bac-91a2a20062a8")
+	)
+	(wire
+		(pts
+			(xy 374.65 257.81) (xy 394.97 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09e124b-c9bc-4da3-843b-8f0b87af8e85")
 	)
 	(wire
 		(pts
@@ -6944,6 +6974,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 283.21) (xy 292.1 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff26920b-1c60-45c7-8789-ebbdb33fbba9")
+	)
+	(wire
+		(pts
 			(xy 220.98 300.99) (xy 232.41 300.99)
 		)
 		(stroke
@@ -7052,6 +7092,16 @@
 		)
 		(uuid "12a35249-3908-46bb-a59b-c0f0362cf11b")
 	)
+	(label "CH_UART_TX"
+		(at 374.65 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e227b83-09b0-4b1d-a26f-eb6e222ab40e")
+	)
 	(label "D4"
 		(at 635 323.85 180)
 		(effects
@@ -7101,6 +7151,16 @@
 			(justify right bottom)
 		)
 		(uuid "38b317e1-82d5-44f8-8c16-27c7461bbc76")
+	)
+	(label "CH_UART_RX"
+		(at 307.34 285.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e2adcee-4c1c-47ed-bbe2-bd1f046a52fe")
 	)
 	(label "MODE_D"
 		(at 314.96 323.85 0)
@@ -7201,6 +7261,16 @@
 			(justify right bottom)
 		)
 		(uuid "58f7374f-3a5c-4711-ba8f-a51edb278681")
+	)
+	(label "CH_UART_TX"
+		(at 307.34 283.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ba9176f-d66c-4eeb-9e1f-4edb8f16f5d3")
 	)
 	(label "D5_PWM"
 		(at 635 326.39 180)
@@ -7551,6 +7621,16 @@
 			(justify right bottom)
 		)
 		(uuid "d439e9b3-5b69-4049-95cb-b5e9326ef649")
+	)
+	(label "CH_UART_RX"
+		(at 447.04 214.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d47750af-84b7-4721-87c4-c61938d531c3")
 	)
 	(label "nRESET"
 		(at 292.1 300.99 0)
