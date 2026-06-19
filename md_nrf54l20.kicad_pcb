@@ -114,6 +114,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(aux_axis_origin 100 100)
 		(grid_origin 100 100)
 		(pcbplotparams
@@ -1114,7 +1115,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "10b29aa3-ae30-4d80-a42c-55eb8e0f7a0d")
-		(at 134.75 75.91)
+		(at 143.85 64.91)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C10"
@@ -3546,7 +3547,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "42186698-1904-4cbf-88f4-b96a45b7ffe6")
-		(at 139.22 69.905)
+		(at 148.32 58.905)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "LED")
 		(property "Reference" "D1"
@@ -3926,7 +3927,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "48c7e992-3791-479f-ad0f-42131b2f36ed")
-		(at 134.75 72.9)
+		(at 143.85 61.9)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C9"
@@ -4242,7 +4243,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "58e65673-78de-4f3b-9e62-07a414fecdf7")
-		(at 139.22 75.985)
+		(at 148.32 64.985)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "LED")
 		(property "Reference" "D3"
@@ -4786,7 +4787,7 @@
 		(property "Reference" "U3"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
-			(uuid "eb87ba8e-827d-436d-90f3-483e1678622b")
+			(uuid "01ceac69-d420-4148-92aa-34e6072b110d")
 			(effects
 				(font
 					(size 1 1)
@@ -4797,7 +4798,7 @@
 		(property "Value" "CH347T"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "ffbd71ad-4c46-47e2-a09f-457debb6af0b")
+			(uuid "07e436b7-ea28-4fc5-b737-6a7c24d7955d")
 			(effects
 				(font
 					(size 1 1)
@@ -4809,7 +4810,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60ef083e-418d-4cd3-b4ab-43a6e52d1287")
+			(uuid "8ebf12f8-5b5e-4de4-8d14-88d61b073144")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +4821,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64680d05-b347-4c69-bda1-e848c1e357ff")
+			(uuid "3d498444-093f-4e6a-8839-ba71c87f8c31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5493,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "7c21d055-baaa-4dfd-9dbe-cbf5cd4d0f46")
-		(at 139.22 72.945)
+		(at 148.32 61.945)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "LED")
 		(property "Reference" "D2"
@@ -6148,10 +6149,10 @@
 	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 		(layer "F.Cu")
 		(uuid "9c0254e8-dfc7-4857-888b-8e712e7d4265")
-		(at 129.9 70.66)
+		(at 133.4 61.55)
 		(descr "SMD3225/4, Crystal, 3.2x2.5mm package, SMD, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf")
 		(property "Reference" "Y1"
-			(at 0 -2.45 0)
+			(at 0 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "fecf6947-682e-4874-8996-c6e1d5c47736")
 			(effects
@@ -6262,7 +6263,7 @@
 			(uuid "0939e214-e6ae-402e-b481-f5f4fdea0535")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 -0.05 0)
 			(layer "F.Fab")
 			(uuid "c8e6d1ba-f77a-43b3-96f6-439ed086f051")
 			(effects
@@ -6579,7 +6580,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "c105cecc-d08f-402a-be7c-3551bf7aefb8")
-		(at 134.75 69.89)
+		(at 143.85 58.89)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -7673,6 +7674,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7684,6 +7686,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
