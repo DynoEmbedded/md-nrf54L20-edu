@@ -10624,7 +10624,7 @@
 				)
 			)
 		)
-		(property "Value" "AMS1117-3.3"
+		(property "Value" "AMS1117 3.3V 1A"
 			(at 251.968 152.146 0)
 			(show_name no)
 			(do_not_autoplace no)
