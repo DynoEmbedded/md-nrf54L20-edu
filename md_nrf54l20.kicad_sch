@@ -2940,6 +2940,344 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "md_nrf54l20:CH347F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -20.32 31.75 0)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Value" "CH347F"
+				(at -20.32 -33.02 0)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.4mm_EP2.4x2.4mm"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" "https://www.wch-ic.com/products/CH347.html"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "USB high-speed to dual UART/SPI/I2C/JTAG/SWD bridge, QFN-28 4x4mm"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "ki_keywords" "USB UART SPI I2C JTAG SWD bridge CH347 CH347F WCH"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "ki_fp_filters" "QFN*1EP*4x4mm*P0.4mm*"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(symbol "CH347F_0_1"
+				(rectangle
+					(start -20.32 30.48)
+					(end 20.32 -30.48)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "CH347F_1_1"
+				(pin power_in line
+					(at -22.86 25.4 0)
+					(length 2.54)
+					(name "VCC"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "21"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin power_in line
+					(at -22.86 22.86 0)
+					(length 2.54)
+					(name "VIO"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "6"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin power_in line
+					(at -22.86 20.32 0)
+					(length 2.54)
+					(name "GND"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "20"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin power_in line
+					(at -22.86 17.78 0)
+					(length 2.54)
+					(name "GND"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "29"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 12.7 0)
+					(length 2.54)
+					(name "UD+"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "28"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 10.16 0)
+					(length 2.54)
+					(name "UD-"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "27"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin input line
+					(at -22.86 5.08 0)
+					(length 2.54)
+					(name "XI"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "1"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin output line
+					(at -22.86 2.54 0)
+					(length 2.54)
+					(name "XO"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "2"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin input line
+					(at -22.86 -2.54 0)
+					(length 2.54)
+					(name "~{RST}"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "3"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin output line
+					(at 22.86 27.94 180)
+					(length 2.54)
+					(name "TXD0"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "19"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin input line
+					(at 22.86 25.4 180)
+					(length 2.54)
+					(name "RXD0"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "22"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 22.86 180)
+					(length 2.54)
+					(name "RTS0/GPIO1"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "18"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 20.32 180)
+					(length 2.54)
+					(name "CTS0/GPIO0"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "17"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 17.78 180)
+					(length 2.54)
+					(name "DTR0/TNOW0/GPIO2"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "10"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin output line
+					(at 22.86 12.7 180)
+					(length 2.54)
+					(name "TXD1"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "4"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin input line
+					(at 22.86 10.16 180)
+					(length 2.54)
+					(name "RXD1"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "5"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 7.62 180)
+					(length 2.54)
+					(name "RTS1/SDA"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "12"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 5.08 180)
+					(length 2.54)
+					(name "CTS1/SCL"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "11"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin output line
+					(at 22.86 2.54 180)
+					(length 2.54)
+					(name "DTR1/TNOW1/SCS1"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "7"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin output line
+					(at 22.86 -2.54 180)
+					(length 2.54)
+					(name "SCK"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "14"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin input line
+					(at 22.86 -5.08 180)
+					(length 2.54)
+					(name "MISO"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "15"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin output line
+					(at 22.86 -7.62 180)
+					(length 2.54)
+					(name "MOSI"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "16"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin output line
+					(at 22.86 -10.16 180)
+					(length 2.54)
+					(name "SCS0"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "13"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -15.24 180)
+					(length 2.54)
+					(name "TCK/SWDCLK/GPIO4"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "23"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -17.78 180)
+					(length 2.54)
+					(name "TMS/SWDIO/GPIO7"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "26"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -20.32 180)
+					(length 2.54)
+					(name "TDI/GPIO6"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "25"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -22.86 180)
+					(length 2.54)
+					(name "TDO/GPIO5"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "24"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -25.4 180)
+					(length 2.54)
+					(name "TRST/GPIO3"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "9"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin output line
+					(at 22.86 -27.94 180)
+					(length 2.54)
+					(name "ACT/SRST"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "8"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+			)
+		)
 		(symbol "md_nrf54l20:CH347T"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -12563,6 +12901,172 @@
 			(project ""
 				(path "/e09869c8-a609-568e-b6fc-992aa2e6349f"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "md_nrf54l20:CH347F")
+		(at 300 450 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0134a8a9-35fd-456b-a12e-f60c9af8156c")
+		(property "Reference" "U6"
+			(at 279.68 415.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CH347F"
+			(at 279.68 418.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.4mm_EP2.4x2.4mm"
+			(at 300 450 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.wch-ic.com/products/CH347.html"
+			(at 300 450 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB high-speed to dual UART/SPI/I2C/JTAG/SWD bridge, QFN-28 4x4mm"
+			(at 300 450 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "21"
+			(uuid "f342f773-aec3-4add-b717-dc65448b2de4")
+		)
+		(pin "6"
+			(uuid "d86695a6-fed1-4e9e-9e5b-236a21d1375f")
+		)
+		(pin "20"
+			(uuid "7a46ec48-15b4-40eb-aa1b-9fe0ee9980bc")
+		)
+		(pin "29"
+			(uuid "2849e129-193e-425c-aeae-c33dacc56e63")
+		)
+		(pin "28"
+			(uuid "692f860b-0d83-4926-bbd0-6425f14cc6af")
+		)
+		(pin "27"
+			(uuid "8220767c-e6df-4dcd-b801-2968735aaaea")
+		)
+		(pin "1"
+			(uuid "0b3b713a-22fe-4b72-8ea5-7871357c82f5")
+		)
+		(pin "2"
+			(uuid "6e9c2436-94c3-4614-a339-89eb19b5dcb9")
+		)
+		(pin "3"
+			(uuid "e33bd44c-3756-47b1-9b01-483cc01d1bc7")
+		)
+		(pin "19"
+			(uuid "c8fb45b3-da5c-4389-b9aa-0f6ae8f08bc7")
+		)
+		(pin "22"
+			(uuid "52c216d7-6dd1-4f0e-ad95-ad6154a21872")
+		)
+		(pin "18"
+			(uuid "9e48d957-8566-4dff-bc1a-170ad2f844d9")
+		)
+		(pin "17"
+			(uuid "d12fb1d3-7e7d-403a-8284-66b11dc70148")
+		)
+		(pin "10"
+			(uuid "2b051bf8-7375-4e53-9365-09be720b6dce")
+		)
+		(pin "4"
+			(uuid "f956e49d-0fbc-4d51-a5d8-ea1b09082aa4")
+		)
+		(pin "5"
+			(uuid "5700a46e-3ec7-4d31-9ed9-a868ba865372")
+		)
+		(pin "12"
+			(uuid "07cd7535-b92b-4e10-b7ef-436d4fe415f8")
+		)
+		(pin "11"
+			(uuid "a4e11a6d-597c-481b-b5b1-8618e4e56271")
+		)
+		(pin "7"
+			(uuid "e53671f4-af4f-49e3-9465-e1c31285ec16")
+		)
+		(pin "14"
+			(uuid "9011e815-433a-4efa-bbdd-93d8a6ec5a22")
+		)
+		(pin "15"
+			(uuid "965b993b-57fb-448c-ae98-02c5f7183ebd")
+		)
+		(pin "16"
+			(uuid "623c432e-b949-4f92-8763-b52c307e6d22")
+		)
+		(pin "13"
+			(uuid "c0df938a-a883-4f24-9f1a-4abe8f57173e")
+		)
+		(pin "23"
+			(uuid "8e4c03b2-7ba7-42be-857c-17218120ca77")
+		)
+		(pin "26"
+			(uuid "566456ba-f0e3-44b7-8d3c-bbb7ead40b07")
+		)
+		(pin "25"
+			(uuid "d1129cd8-2c50-4645-a476-4b185aa25ddd")
+		)
+		(pin "24"
+			(uuid "33967589-5555-4c46-bbfb-4910b5d128d1")
+		)
+		(pin "9"
+			(uuid "c7098546-533b-4e54-a314-1dda0c5453fc")
+		)
+		(pin "8"
+			(uuid "5b2b7826-428a-4c9f-a9ca-b41bcc4cd53a")
+		)
+		(instances
+			(project "md_nrf54l20"
+				(path "/66856a8e-a1ed-409f-881b-bdedd4d4f5ae"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/e09869c8-a609-568e-b6fc-992aa2e6349f"
+					(reference "U6")
 					(unit 1)
 				)
 			)
