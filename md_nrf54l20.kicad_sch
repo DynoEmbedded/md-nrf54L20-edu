@@ -6620,16 +6620,6 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 425.45) (xy 351.79 422.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54b63164-ee02-4bc0-bdcc-0cfb58a9d477")
-	)
-	(wire
-		(pts
 			(xy 430.53 232.41) (xy 453.39 232.41)
 		)
 		(stroke
@@ -6857,6 +6847,16 @@
 			(type default)
 		)
 		(uuid "72d33176-c998-45d8-b6b7-e77737fff15e")
+	)
+	(wire
+		(pts
+			(xy 303.53 425.45) (xy 313.69 425.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f6c763-07f0-41be-89ba-4fe3c4251d95")
 	)
 	(wire
 		(pts
@@ -7350,16 +7350,6 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 207.01) (xy 499.11 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bccba6e1-1b81-4e5d-9973-9632867726dd")
-	)
-	(wire
-		(pts
 			(xy 382.27 331.47) (xy 405.13 331.47)
 		)
 		(stroke
@@ -7387,16 +7377,6 @@
 			(type default)
 		)
 		(uuid "bee19b00-473b-45ec-a960-6a8865b93710")
-	)
-	(wire
-		(pts
-			(xy 303.53 425.45) (xy 351.79 425.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf2aa195-243f-4ee1-9e8a-e14c1dbaffdd")
 	)
 	(wire
 		(pts
@@ -9487,96 +9467,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 351.79 419.1 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0e16fc45-b021-4e4e-99c8-60f2d84e1920")
-		(property "Reference" "D4"
-			(at 346.202 419.354 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "G_LED"
-			(at 348.488 419.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 351.79 419.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 351.79 419.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 351.79 419.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 351.79 419.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "32dad4bc-3401-4554-ab2c-095536f42451")
-		)
-		(pin "1"
-			(uuid "646350ba-b484-4cb3-b5f2-5b5c7a56d699")
-		)
-		(instances
-			(project "md_nrf54l20"
-				(path "/66856a8e-a1ed-409f-881b-bdedd4d4f5ae"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 342.9 353.06 0)
 		(unit 1)
@@ -10058,96 +9948,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 495.3 207.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1a432b21-f6ca-454a-8e87-8418baf29e1f")
-		(property "Reference" "D6"
-			(at 493.7125 200.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "G_LED"
-			(at 493.7125 203.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 495.3 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 495.3 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 495.3 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 495.3 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f8207c4c-3bbd-4b15-a118-c86d671a7b24")
-		)
-		(pin "1"
-			(uuid "8a597769-15f4-45b8-ac3d-c09e268329ee")
-		)
-		(instances
-			(project "md_nrf54l20"
-				(path "/66856a8e-a1ed-409f-881b-bdedd4d4f5ae"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 241.3 430.53 0)
 		(unit 1)
@@ -10225,8 +10025,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 505.46 199.39 0)
+		(lib_id "Connector:TestPoint")
+		(at 210.82 421.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10234,30 +10034,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1e06a183-46a0-46af-8397-b89e292b6d70")
-		(property "Reference" "#PWR04"
-			(at 505.46 205.74 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "1c9a548b-eafb-444b-87f4-77c7df9c4b03")
+		(property "Reference" "TP2"
+			(at 213.36 417.0679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 505.46 195.58 0)
+		(property "Value" "GND"
+			(at 213.36 419.6079 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 505.46 199.39 0)
+		(property "Footprint" "md-l20B:TestPad-R0.5"
+			(at 215.9 421.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10268,7 +10070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 505.46 199.39 0)
+			(at 215.9 421.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10278,8 +10080,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 505.46 199.39 0)
+		(property "Description" "test point"
+			(at 210.82 421.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10290,12 +10092,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "df5bdc00-f2a7-4068-b329-e3cfe797d0d2")
+			(uuid "66906c58-8808-4b8f-a0bf-502d0cd4af31")
 		)
 		(instances
 			(project "md_nrf54l20"
 				(path "/66856a8e-a1ed-409f-881b-bdedd4d4f5ae"
-					(reference "#PWR04")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -11998,6 +11800,83 @@
 			(project "md_nrf54l20"
 				(path "/66856a8e-a1ed-409f-881b-bdedd4d4f5ae"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 421.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a96666c-f3da-40a7-a7bd-7b6b7d2951d8")
+		(property "Reference" "#PWR033"
+			(at 210.82 427.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 425.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 421.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 421.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 421.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d62b154-a6e8-4471-81d5-d619135b2187")
+		)
+		(instances
+			(project "md_nrf54l20"
+				(path "/66856a8e-a1ed-409f-881b-bdedd4d4f5ae"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14524,85 +14403,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 351.79 411.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ad0b2497-5155-4867-b4f4-cec11e3a5a87")
-		(property "Reference" "R9"
-			(at 356.402 413.518 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 356.148 411.232 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 350.774 411.226 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 351.79 411.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 351.79 411.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8e781457-1101-4dec-8b14-5f8fe819628a")
-		)
-		(pin "1"
-			(uuid "aef5d53b-f8de-4435-aeee-0a2dc0c61ed8")
-		)
-		(instances
-			(project "md_nrf54l20"
-				(path "/66856a8e-a1ed-409f-881b-bdedd4d4f5ae"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 303.53 351.79 0)
 		(unit 1)
@@ -14680,86 +14480,6 @@
 			(project ""
 				(path "/e09869c8-a609-568e-b6fc-992aa2e6349f"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 505.46 203.2 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b124736d-9ec7-405f-993e-2de9e2f2c792")
-		(property "Reference" "R17"
-			(at 509.524 204.216 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 509.778 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 506.476 202.946 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 505.46 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 505.46 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a23b096e-4fbb-4c9b-b99e-b351b29ae77e")
-		)
-		(pin "2"
-			(uuid "ba0b0c3f-fd0b-4110-97dd-e8f45db3d00a")
-		)
-		(instances
-			(project "md_nrf54l20"
-				(path "/66856a8e-a1ed-409f-881b-bdedd4d4f5ae"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -15565,83 +15285,6 @@
 			(project "md_nrf54l20"
 				(path "/66856a8e-a1ed-409f-881b-bdedd4d4f5ae"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 351.79 407.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "caaa9dbf-05ab-4983-a130-6c4ed405b9d5")
-		(property "Reference" "#PWR024"
-			(at 351.79 414.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 351.79 403.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 351.79 407.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 351.79 407.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 351.79 407.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55129f04-77b0-4af7-9da5-e3e4f65ed88c")
-		)
-		(instances
-			(project "md_nrf54l20"
-				(path "/66856a8e-a1ed-409f-881b-bdedd4d4f5ae"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
